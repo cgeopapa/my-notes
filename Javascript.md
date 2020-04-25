@@ -102,4 +102,20 @@ function bam(baz){
 foo();
 ```
 
-# 
+# Modules
+```javascript
+var foo = (function(){
+    var publicAPI = {
+        bar: function(){
+            publicAPI.baz();
+        },
+        baz: function(){
+            console.log("baz");
+        }
+    };
+    return publicAPI;
+})();
+
+foo.bar();  //"baz"
+```
+So now foo is like a class object with private members.
