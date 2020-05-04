@@ -7,3 +7,6 @@ var students = new Dictionary<int, StudentName>()
             { 113, new StudentName { FirstName="Andy", LastName="Ruth", ID=198 } }
         };
 ```
+
+# GutHub repo from existing project
+[link to VisualStudio repo docs](https://github.com/github/VisualStudio/blob/master/docs/using/publishing-an-existing-project-to-github.md)
