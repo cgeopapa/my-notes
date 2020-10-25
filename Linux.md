@@ -16,3 +16,10 @@ Where:
 Where:
 * `-r` recursive
 * `-f` no prompt before delete
+
+# Edit PATH
+1. `[code/nano] ~/.profile`
+2. Add the new path `export PATH=/path/to/location:$PATH`
+3. Reload PATH 
+    1. `cd ~`
+    2. `. .bashrc`
