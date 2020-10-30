@@ -23,3 +23,10 @@ Where:
 3. Reload PATH 
     1. `cd ~`
     2. `. ~/.profile`
+
+# Add permanent alias 
+Edit file ~/.bashrc
+`code ~/.bashrc`
+
+and add the line
+`alias name="command"`
