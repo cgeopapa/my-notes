@@ -30,3 +30,10 @@ Edit file ~/.bashrc
 
 and add the line
 `alias name="command"`
+
+# Find process that listens to a port
+`netstat -ltnp | grep -w ':${PORT}'`
+* `l` tells netstat to only show listening sockets
+* `t` tells it to display tcp connections
+* `n` instructs it show numerical addresses
+* `p` enables showing of the process ID and the process name
