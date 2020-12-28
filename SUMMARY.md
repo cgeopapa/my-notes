@@ -4,8 +4,8 @@
 * [Java](java.md)
 * [HTML](html-css.md)
 * [C\#](c.md)
-* [Read/Write file](python.md)
+* [Python](python.md)
 * [Linux](linux.md)
-* [Bold, italics and underlining](overleaf.md)
+* [Overleaf](overleaf.md)
 * [Javascript](javascript.md)
 
