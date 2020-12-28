@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Hello World!](README.md)
 * [Java](java.md)
 * [HTML](html-css.md)
 * [C\#](c.md)
