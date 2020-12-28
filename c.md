@@ -1,5 +1,8 @@
-# Dictionary Initialization
-```c#
+# C\#
+
+## Dictionary Initialization
+
+```text
 var students = new Dictionary<int, StudentName>()
         {
             { 111, new StudentName { FirstName="Sachin", LastName="Karnik", ID=211 } },
@@ -8,5 +11,7 @@ var students = new Dictionary<int, StudentName>()
         };
 ```
 
-# GutHub repo from existing project
+## GutHub repo from existing project
+
 [link to VisualStudio repo docs](https://github.com/github/VisualStudio/blob/master/docs/using/publishing-an-existing-project-to-github.md)
+

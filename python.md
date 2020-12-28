@@ -1,5 +1,6 @@
 # Read/Write file
-```Python
+
+```python
 f = open("demofile.txt", "r")
 ```
 
@@ -9,7 +10,9 @@ f = open("demofile.txt", "r")
 * `'x'` - Create - will create a file, returns an error if the file exist
 
 ## After open
+
 * `f.read()` - read the whole file. `Param:` number of characters
 * `f.readline()`
 * `f.write("what to write")`
 * `f.close()`
+
