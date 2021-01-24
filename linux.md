@@ -81,3 +81,9 @@ SuccessExitStatus=143 TimeoutStopSec=10 Restart=on-failure RestartSec=5
 
 * `sudo journalctl -f -u my-service` check logs of running service
 
+## Disable/Enable Desktop GUI
+Disable
+`systemctl set-default multi-user.target`
+
+Enable
+`systemctl set-default graphical.target`
