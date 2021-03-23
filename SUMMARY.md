@@ -8,5 +8,6 @@
 * [Linux](linux.md)
 * [Overleaf](overleaf.md)
 * [Javascript](javascript.md)
+* [Security](security.md)
 * [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
