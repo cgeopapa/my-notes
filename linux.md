@@ -59,25 +59,20 @@ finaly, run bashrc to load the new aliases `source ~/.bashrc`
 
    Paste:
 
-   \`\`\`
-
-   \[Unit\]
-
+   ```
+   [Unit]
    Description=Run minecraft server
-
-   \[Service\]
-
+   [Service]
    User=azureuser
-
    WorkingDirectory=/home/azureuser
-
    ExecStart=/usr/bin/java -Xms2G -Xmx4G -jar papermc-1.16.4-335.jar
+   SuccessExitStatus=143 TimeoutStopSec=10 Restart=on-failure RestartSec=5
+   [Install] 
+   WantedBy=multi-user.target
+   ```
 
-SuccessExitStatus=143 TimeoutStopSec=10 Restart=on-failure RestartSec=5
-
-\[Install\] WantedBy=multi-user.target
-
-````` 2. Restart```sudo systemctl daemon-reload`to load the new service 3.`sudo systemctl enable my-service\` to enable new service on startup
+2. Restart `sudo systemctl daemon-reload` to load the new service 
+3. `sudo systemctl enable my-service\` to enable new service on startup
 
 * `sudo journalctl -f -u my-service` check logs of running service
 
